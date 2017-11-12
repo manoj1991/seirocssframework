@@ -1,0 +1,51 @@
+@import "../utilities/derived-variables.sass"
+@import "typography-helpers.sass"
+
+$button-width: 80px !default
+$button-height: 40px !default
+$button-width-small: $button-width - 20px !default
+$button-height-small: $button-height - 10px !default
+$button-width-large: $button-width + 20px !default
+$button-height-large: $button-height + 20px !default
+$button-radius: 5px !default
+$button-padding: 3px !default
+
+.button 
+    width: $button-width !important
+    height: $button-height !important
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+
+.btn-small
+    width: $button-width-small !important
+    height: $button-height-small !important
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+
+.btn-large
+    width: $button-width-large !important
+    height: $button-height-large !important
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+
+.s-primary
+    background-color: $primary !important
+
+.s-link
+    background-color: $link !important
+
+.s-info
+    background-color: $info !important
+
+.s-success
+    background-color: $success !important
+
+.s-warning
+    background-color: $warning !important
+
+.s-danger
+    background-color: $danger !important
+

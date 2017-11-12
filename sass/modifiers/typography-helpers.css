@@ -1,0 +1,58 @@
+h1 {
+  font-size: 3.5rem !important;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+}
+
+h4 {
+  font-size: 2rem !important;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+}
+
+.text-is-white {
+  color: white !important;
+}
+
+.size-is-1 {
+  font-size: 3.5rem !important;
+}
+
+.size-is-2 {
+  font-size: 3rem !important;
+}
+
+.size-is-3 {
+  font-size: 2.5rem !important;
+}
+
+.size-is-4 {
+  font-size: 2rem !important;
+}
+
+.size-is-5 {
+  font-size: 1.5rem !important;
+}
+
+.size-is-6 {
+  font-size: 1rem !important;
+}
+
+.size-is-7 {
+  font-size: 0.75rem !important;
+}
+ 
+
+ /*# sourceMappingURL= typography-helpers.css.map */
