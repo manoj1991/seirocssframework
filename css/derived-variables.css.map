@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "derived-variables.sass",
-        "initial-variables.sass"
+        "../sass/variables/derived-variables.sass",
+        "../sass/variables/initial-variables.sass"
     ],
     "names": [],
     "file": "derived-variables.css"

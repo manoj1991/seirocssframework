@@ -1,0 +1,291 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  color: #363636 !important;
+  font-family: 'Noto Sans' !important;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  padding: 0 !important;
+}
+
+h2 {
+  font-size: 3rem !important;
+  padding: 0 !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+  padding: 0 !important;
+}
+
+h4 {
+  font-size: 2rem !important;
+  padding: 0 !important;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+  padding: 0 !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+  padding: 0 !important;
+}
+
+.text-is-centered {
+  text-align: center !important;
+}
+
+.text-is-right {
+  text-align: right !important;
+}
+
+.text-is-left {
+  text-align: left !important;
+}
+
+.text-is-white {
+  color: white !important;
+}
+
+.size-is-1 {
+  font-size: 3.5rem !important;
+}
+
+.size-is-2 {
+  font-size: 3rem !important;
+}
+
+.size-is-3 {
+  font-size: 2.5rem !important;
+}
+
+.size-is-4 {
+  font-size: 2rem !important;
+}
+
+.size-is-5, .s-title {
+  font-size: 1.5rem !important;
+}
+
+.size-is-6 {
+  font-size: 1rem !important;
+}
+
+.size-is-7 {
+  font-size: 0.75rem !important;
+}
+
+html, body {
+  margin: 0 !important;
+}
+
+.s-primary {
+  background-color: #1abc9c !important;
+}
+
+.s-info {
+  background-color: #00b4eb !important;
+}
+
+.s-success {
+  background-color: #2ecc70 !important;
+}
+
+.s-warning {
+  background-color: #f1c40e !important;
+}
+
+.s-danger {
+  background-color: #e74d3c !important;
+}
+
+.s-default {
+  background-color: #dbdbdb !important;
+}
+
+.is-right {
+  float: right !important;
+}
+
+.is-left {
+  float: left !important;
+}
+
+.s-centered {
+  justify-content: center !important;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  color: #363636 !important;
+  font-family: 'Noto Sans' !important;
+}
+
+h1 {
+  font-size: 3.5rem !important;
+  padding: 0 !important;
+}
+
+h2 {
+  font-size: 3rem !important;
+  padding: 0 !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+  padding: 0 !important;
+}
+
+h4 {
+  font-size: 2rem !important;
+  padding: 0 !important;
+}
+
+h5 {
+  font-size: 1.5rem !important;
+  padding: 0 !important;
+}
+
+h6 {
+  font-size: 1rem !important;
+  padding: 0 !important;
+}
+
+.text-is-centered {
+  text-align: center !important;
+}
+
+.text-is-right {
+  text-align: right !important;
+}
+
+.text-is-left {
+  text-align: left !important;
+}
+
+.text-is-white {
+  color: white !important;
+}
+
+.size-is-1 {
+  font-size: 3.5rem !important;
+}
+
+.size-is-2 {
+  font-size: 3rem !important;
+}
+
+.size-is-3 {
+  font-size: 2.5rem !important;
+}
+
+.size-is-4 {
+  font-size: 2rem !important;
+}
+
+.size-is-5, .s-title {
+  font-size: 1.5rem !important;
+}
+
+.size-is-6 {
+  font-size: 1rem !important;
+}
+
+.size-is-7 {
+  font-size: 0.75rem !important;
+}
+
+article {
+  margin-bottom: 10px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.s-banner-primary {
+  color: white;
+  background-color: #1abc9c;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-danger {
+  color: white;
+  background-color: #e74d3c;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-warning {
+  color: white;
+  background-color: #f1c40e;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-success {
+  color: white;
+  background-color: #2ecc70;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-info {
+  color: white;
+  background-color: #00b4eb;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.button {
+  width: 80px !important;
+  height: 40px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 2px !important;
+}
+
+.btn-small {
+  width: 60px !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+}
+
+.btn-large {
+  width: 100px !important;
+  height: 60px !important;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+}
+ 
+
+ /*# sourceMappingURL= seiro.css.map */

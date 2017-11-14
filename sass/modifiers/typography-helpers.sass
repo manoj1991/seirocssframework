@@ -1,5 +1,6 @@
-@import "../utilities/initial-variables"
+@import "../variables/initial-variables"
 
+$default-text-color: $black !default
 $text-is-white: $white !default
 $size-is-1: $size-1 !default
 $size-is-2: $size-2 !default
@@ -9,23 +10,42 @@ $size-is-5: $size-5 !default
 $size-is-6: $size-6 !default
 $size-is-7: $size-7 !default
 
+html, body, h1, h2, h3, h4, h5, h6 
+    color: $grey-darker !important
+    font-family: 'Noto Sans' !important
+
 h1
     font-size: $size-1 !important
+    padding: 0 !important
 
 h2
     font-size: $size-2 !important
+    padding: 0 !important
 
 h3
     font-size: $size-3 !important
+    padding: 0 !important
 
 h4
     font-size: $size-4 !important
+    padding: 0 !important
 
 h5
     font-size: $size-5 !important
+    padding: 0 !important
 
 h6
     font-size: $size-6 !important
+    padding: 0 !important
+
+.text-is-centered
+    text-align: center !important
+
+.text-is-right
+    text-align: right !important
+
+.text-is-left
+    text-align: left !important
 
 .text-is-white
     color: $text-is-white !important
@@ -42,7 +62,7 @@ h6
 .size-is-4
     font-size: $size-is-4 !important
 
-.size-is-5
+.size-is-5, .s-title
     font-size: $size-is-5 !important
 
 .size-is-6

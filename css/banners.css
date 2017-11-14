@@ -1,0 +1,52 @@
+.s-banner-primary {
+  color: white;
+  background-color: #1abc9c;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-danger {
+  color: white;
+  background-color: #e74d3c;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-warning {
+  color: white;
+  background-color: #f1c40e;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-success {
+  color: white;
+  background-color: #2ecc70;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-info {
+  color: white;
+  background-color: #00b4eb;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+ 
+
+ /*# sourceMappingURL= banners.css.map */
