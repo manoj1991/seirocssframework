@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,aAAa,EAAE,eAAe;CAAI;;AAEtC,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAI",
     "sources": [
-        "../sass/elements/element-variables.sass",
+        "../sass/variables/element-variables.sass",
         "../sass/variables/initial-variables.sass"
     ],
     "names": [],

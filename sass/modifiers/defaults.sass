@@ -1,9 +1,11 @@
 @import "typography-helpers.sass"
 @import "../variables/derived-variables.sass"
 
-html, body
+//default html margin
+html
     margin: 0 !important
 
+//default colors, just apply color class to get the color
 .s-primary
     background-color: $primary !important
     
@@ -21,12 +23,3 @@ html, body
 
 .s-default
     background-color: $default !important
-
-.is-right
-    float: right !important
-
-.is-left
-    float: left !important
-
-.s-centered
-    justify-content: center !important
