@@ -1,5 +1,5 @@
 .s-banner-primary {
-  color: white;
+  color: #ffffff;
   background-color: #1abc9c;
   height: 100px;
   padding: 30px;
@@ -9,8 +9,8 @@
 }
 
 .s-banner-danger {
-  color: white;
-  background-color: #e74d3c;
+  color: #ffffff;
+  background-color: #C33246;
   height: 100px;
   padding: 30px;
   display: flex;
@@ -19,8 +19,8 @@
 }
 
 .s-banner-warning {
-  color: white;
-  background-color: #f1c40e;
+  color: #ffffff;
+  background-color: #f1c40f;
   height: 100px;
   padding: 30px;
   display: flex;
@@ -29,8 +29,8 @@
 }
 
 .s-banner-success {
-  color: white;
-  background-color: #2ecc70;
+  color: #ffffff;
+  background-color: #2ecc71;
   height: 100px;
   padding: 30px;
   display: flex;
@@ -39,8 +39,8 @@
 }
 
 .s-banner-info {
-  color: white;
-  background-color: #00b4eb;
+  color: #ffffff;
+  background-color: #2980b9;
   height: 100px;
   padding: 30px;
   display: flex;
