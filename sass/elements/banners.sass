@@ -9,11 +9,13 @@ $s-banner-padding: 30px !default
 $s-banner-align-items: center !default
 $s-banner-display: flex !default
 $s-banner-direction: column !default
+$s-banner-justify: center !default
 
 .s-banner-container
   display: $s-banner-display !important
   flex-direction: $s-banner-direction !important
   justify-content: left !important
+  width: 100% !important
 
 .s-banner
   background-color: $white
@@ -144,3 +146,11 @@ $s-banner-direction: column !default
   padding: $s-banner-padding
   display: $s-banner-display
   align-items: $s-banner-align-items
+
+.s-banner-fullheight
+  background-color: $white
+  min-height: $s-banner-fullheight
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+  justify-content: $s-banner-justify
+  flex-direction: $s-banner-direction
