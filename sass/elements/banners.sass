@@ -1,56 +1,146 @@
 @import "../variables/derived-variables.sass"
 @import "../variables/initial-variables.sass"
 
-$s-banner-height: 100px !default
+$s-banner-default: 15vh !default
+$s-banner-medium: 30vh !default
+$s-banner-large: 60vh !default
+$s-banner-fullheight: 100vh !default
 $s-banner-padding: 30px !default
 $s-banner-align-items: center !default
 $s-banner-display: flex !default
+$s-banner-direction: column !default
 
-.s-banner-primary 
-  color: $white
-  background-color: $primary
-  height: $s-banner-height
+.s-banner-container
+  display: $s-banner-display !important
+  flex-direction: $s-banner-direction !important
+  justify-content: left !important
+
+.s-banner
+  background-color: $white
+  min-height: $s-banner-default
   padding: $s-banner-padding
-  display: $s-banner-display
-  justify-content: left
+  display: $s-banner-display 
   align-items: $s-banner-align-items
 
-
-.s-banner-danger
-  color: $white
-  background-color: $danger
-  height: $s-banner-height
+.s-banner-primary
+  background-color: $primary
+  min-height: $s-banner-default
   padding: $s-banner-padding
   display: $s-banner-display
-  justify-content: left
+  align-items: $s-banner-align-items
+
+.s-banner-danger
+  background-color: $danger
+  min-height: $s-banner-default
+  padding: $s-banner-padding
+  display: $s-banner-display
   align-items: $s-banner-align-items
 
 
 .s-banner-warning
-  color: $white
   background-color: $warning
-  height: $s-banner-height
+  min-height: $s-banner-default
   padding: $s-banner-padding
   display: $s-banner-display
-  justify-content: left
   align-items: $s-banner-align-items
 
 
 .s-banner-success 
-  color: $white
   background-color: $success
-  height: $s-banner-height
+  min-height: $s-banner-default
   padding: $s-banner-padding
   display: $s-banner-display
-  justify-content: left
   align-items: $s-banner-align-items
 
 
 .s-banner-info
-  color: $white
   background-color: $info
-  height: $s-banner-height
+  min-height: $s-banner-default
   padding: $s-banner-padding
   display: $s-banner-display
-  justify-content: left
+  align-items: $s-banner-align-items
+
+  
+.s-banner-medium
+  background-color: $white
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-primary-medium
+  background-color: $primary
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-danger-medium
+  background-color: $danger
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items 
+
+.s-banner-warning-medium
+  background-color: $warning
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-success-medium
+  background-color: $success
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-info-medium
+  background-color: $info
+  min-height: $s-banner-medium
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-large
+  background-color: $white
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-primary-large
+  background-color: $primary
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-danger-large
+  background-color: $danger
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-warning-large
+  background-color: $warning
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-success-large
+  background-color: $success
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
+  align-items: $s-banner-align-items
+
+.s-banner-info-large
+  background-color: $info
+  min-height: $s-banner-large
+  padding: $s-banner-padding
+  display: $s-banner-display
   align-items: $s-banner-align-items

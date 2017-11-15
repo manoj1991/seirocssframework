@@ -1,50 +1,150 @@
-.s-banner-primary {
-  color: #ffffff;
-  background-color: #1abc9c;
-  height: 100px;
+.s-banner-container {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: left !important;
+}
+
+.s-banner {
+  background-color: #ffffff;
+  min-height: 15vh;
   padding: 30px;
   display: flex;
-  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-primary {
+  background-color: #1abc9c;
+  min-height: 15vh;
+  padding: 30px;
+  display: flex;
   align-items: center;
 }
 
 .s-banner-danger {
-  color: #ffffff;
   background-color: #C33246;
-  height: 100px;
+  min-height: 15vh;
   padding: 30px;
   display: flex;
-  justify-content: left;
   align-items: center;
 }
 
 .s-banner-warning {
-  color: #ffffff;
   background-color: #f1c40f;
-  height: 100px;
+  min-height: 15vh;
   padding: 30px;
   display: flex;
-  justify-content: left;
   align-items: center;
 }
 
 .s-banner-success {
-  color: #ffffff;
   background-color: #2ecc71;
-  height: 100px;
+  min-height: 15vh;
   padding: 30px;
   display: flex;
-  justify-content: left;
   align-items: center;
 }
 
 .s-banner-info {
-  color: #ffffff;
   background-color: #2980b9;
-  height: 100px;
+  min-height: 15vh;
   padding: 30px;
   display: flex;
-  justify-content: left;
+  align-items: center;
+}
+
+.s-banner-medium {
+  background-color: #ffffff;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-primary-medium {
+  background-color: #1abc9c;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-danger-medium {
+  background-color: #C33246;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-warning-medium {
+  background-color: #f1c40f;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-success-medium {
+  background-color: #2ecc71;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-info-medium {
+  background-color: #2980b9;
+  min-height: 30vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-large {
+  background-color: #ffffff;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-primary-large {
+  background-color: #1abc9c;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-danger-large {
+  background-color: #C33246;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-warning-large {
+  background-color: #f1c40f;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-success-large {
+  background-color: #2ecc71;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.s-banner-info-large {
+  background-color: #2980b9;
+  min-height: 60vh;
+  padding: 30px;
+  display: flex;
   align-items: center;
 }
  

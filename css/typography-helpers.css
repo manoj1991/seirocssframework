@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
-  color: #141414 !important;
+  color: #212529 !important;
   font-family: 'Noto Sans' !important;
 }
 
@@ -75,6 +75,16 @@ h6 {
 
 .size-is-7 {
   font-size: 0.75rem !important;
+}
+
+.s-subtitle {
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+}
+
+.s-title {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
 }
  
 
