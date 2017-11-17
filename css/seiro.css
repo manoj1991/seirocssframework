@@ -382,6 +382,57 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-primary-fullheight {
+  background-color: #1abc9c;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-danger-fullheight {
+  background-color: #C33246;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-warning-fullheight {
+  background-color: #f1c40f;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-success-fullheight {
+  background-color: #2ecc71;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-info-fullheight {
+  background-color: #2980b9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .buttons {
@@ -394,21 +445,21 @@ h6 {
 .btn-small {
   min-width: 60px !important;
   min-height: 30px !important;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   padding: 5px !important;
 }
 
 .btn-large {
   min-width: 100px !important;
   min-height: 60px !important;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   padding: 5px !important;
 }
 
 .button {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -427,7 +478,7 @@ h6 {
 .button-primary {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -446,7 +497,7 @@ h6 {
 .button-danger {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -465,7 +516,7 @@ h6 {
 .button-warning {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -484,7 +535,7 @@ h6 {
 .button-success {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -503,7 +554,7 @@ h6 {
 .button-info {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -522,7 +573,7 @@ h6 {
 .outlined-button {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #b3b3b3 !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -541,7 +592,7 @@ h6 {
 .outlined-button-primary {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #1abc9c !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -560,7 +611,7 @@ h6 {
 .outlined-button-danger {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #C33246 !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -579,7 +630,7 @@ h6 {
 .outlined-button-warning {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #f1c40f !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -598,7 +649,7 @@ h6 {
 .outlined-button-success {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #2ecc71 !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -617,7 +668,7 @@ h6 {
 .outlined-button-info {
   min-width: 80px;
   min-height: 40px;
-  border-radius: 5px !important;
+  border-radius: 3px !important;
   border: 1px solid #2980b9 !important;
   padding: 5px !important;
   margin: 2px !important;
@@ -647,7 +698,7 @@ h6 {
 }
 
 .photo {
-  box-shadow: 4px 4px 30px #b4b4b4;
+  box-shadow: 0px 0px 5px #bdc3c7;
   border-radius: 3px;
 }
 

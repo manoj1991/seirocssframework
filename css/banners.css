@@ -156,6 +156,57 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-primary-fullheight {
+  background-color: #1abc9c;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-danger-fullheight {
+  background-color: #C33246;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-warning-fullheight {
+  background-color: #f1c40f;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-success-fullheight {
+  background-color: #2ecc71;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.s-banner-info-fullheight {
+  background-color: #2980b9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
 }
  
 
