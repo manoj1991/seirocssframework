@@ -9,6 +9,7 @@ $button-height-large: $button-height + 20px !default
 $button-radius: 5px !default
 $button-padding: 5px !default
 $button-margin: 2px !default
+$bg-color: rgba(0, 0, 0, 0) !default
 
 .buttons
     display: flex !important
@@ -16,28 +17,219 @@ $button-margin: 2px !default
     flex-wrap: wrap !important
     justify-content: left !important
 
+.btn-small
+    min-width: $button-width-small !important
+    min-height: $button-height-small !important
+    border-radius: $button-radius !important
+    padding: $button-padding !important
+
+.btn-large
+    min-width: $button-width-large !important
+    min-height: $button-height-large !important
+    border-radius: $button-radius !important
+    padding: $button-padding !important
+
 .button 
-    width: $button-width !important
-    height: $button-height !important
+    min-width: $button-width
+    min-height: $button-height
     border-radius: $button-radius !important
     border: none !important
     padding: $button-padding !important
     margin: $button-margin !important
-    color: $light !important
+    color: $white !important
+    background-color: $default !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
 
-.btn-small
-    width: $button-width-small !important
-    height: $button-height-small !important
+.button:hover
+    background-color: darken($default,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.button-primary
+    min-width: $button-width
+    min-height: $button-height
     border-radius: $button-radius !important
     border: none !important
     padding: $button-padding !important
-    color: $light !important
+    margin: $button-margin !important
+    color: $white !important
+    background-color: $primary !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
 
-.btn-large
-    width: $button-width-large !important
-    height: $button-height-large !important
+.button-primary:hover
+    background-color: darken($primary,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.button-danger
+    min-width: $button-width
+    min-height: $button-height
     border-radius: $button-radius !important
     border: none !important
     padding: $button-padding !important
-    color: $light !important
+    margin: $button-margin !important
+    color: $white !important
+    background-color: $danger !important 
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.button-danger:hover
+    background-color: darken($danger,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.button-warning
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    color: $white !important
+    background-color: $warning !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.button-warning:hover
+    background-color: darken($warning,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.button-success
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    color: $white !important
+    background-color: $success !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.button-success:hover
+    background-color: darken($success,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.button-info
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: none !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    color: $white !important
+    background-color: $info !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.button-info:hover
+    background-color: darken($info,5%) !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $default !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $default !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button:hover
+    background-color: $default !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button-primary
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $primary !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $primary !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button-primary:hover
+    background-color: $primary !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button-danger
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $danger !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $danger !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button-danger:hover
+    background-color: $danger !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button-warning
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $warning !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $warning !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button-warning:hover
+    background-color: $warning !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button-success
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $success !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $success !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button-success:hover
+    background-color: $success !important
+    color: $white !important
+    transform: scale(1.1) !important
+
+.outlined-button-info
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius !important
+    border: 1px solid $info !important
+    padding: $button-padding !important
+    margin: $button-margin !important
+    background-color: $bg-color !important
+    color: $info !important
+    -webkit-transition: 0.3s ease-in-out !important
+    transition: 0.3s ease-in-out !important
+
+.outlined-button-info:hover
+    background-color: $info !important
+    color: $white !important
+    transform: scale(1.1) !important
 

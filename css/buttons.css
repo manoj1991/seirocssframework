@@ -5,32 +5,246 @@
   justify-content: left !important;
 }
 
+.btn-small {
+  min-width: 60px !important;
+  min-height: 30px !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+}
+
+.btn-large {
+  min-width: 100px !important;
+  min-height: 60px !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+}
+
 .button {
-  width: 80px !important;
-  height: 40px !important;
+  min-width: 80px;
+  min-height: 40px;
   border-radius: 5px !important;
   border: none !important;
   padding: 5px !important;
   margin: 2px !important;
-  color: #ecf0f1 !important;
+  color: #ffffff !important;
+  background-color: #b3b3b3 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
 }
 
-.btn-small {
-  width: 60px !important;
-  height: 30px !important;
+.button:hover {
+  background-color: #a6a6a6 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.button-primary {
+  min-width: 80px;
+  min-height: 40px;
   border-radius: 5px !important;
   border: none !important;
   padding: 5px !important;
-  color: #ecf0f1 !important;
+  margin: 2px !important;
+  color: #ffffff !important;
+  background-color: #1abc9c !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
 }
 
-.btn-large {
-  width: 100px !important;
-  height: 60px !important;
+.button-primary:hover {
+  background-color: #17a689 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.button-danger {
+  min-width: 80px;
+  min-height: 40px;
   border-radius: 5px !important;
   border: none !important;
   padding: 5px !important;
-  color: #ecf0f1 !important;
+  margin: 2px !important;
+  color: #ffffff !important;
+  background-color: #C33246 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.button-danger:hover {
+  background-color: #af2d3f !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.button-warning {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  color: #ffffff !important;
+  background-color: #f1c40f !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.button-warning:hover {
+  background-color: #dab10d !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.button-success {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  color: #ffffff !important;
+  background-color: #2ecc71 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.button-success:hover {
+  background-color: #29b765 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.button-info {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  color: #ffffff !important;
+  background-color: #2980b9 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.button-info:hover {
+  background-color: #2472a4 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #b3b3b3 !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #b3b3b3 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button:hover {
+  background-color: #b3b3b3 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button-primary {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #1abc9c !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #1abc9c !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-primary:hover {
+  background-color: #1abc9c !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button-danger {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #C33246 !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #C33246 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-danger:hover {
+  background-color: #C33246 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button-warning {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #f1c40f !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #f1c40f !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-warning:hover {
+  background-color: #f1c40f !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button-success {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #2ecc71 !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #2ecc71 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-success:hover {
+  background-color: #2ecc71 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
+}
+
+.outlined-button-info {
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 5px !important;
+  border: 1px solid #2980b9 !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #2980b9 !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-info:hover {
+  background-color: #2980b9 !important;
+  color: #ffffff !important;
+  transform: scale(1.1) !important;
 }
  
 
