@@ -741,16 +741,47 @@ h6 {
   background-size: cover;
 }
 
-#parallax1 {
-  background: url("https://images.unsplash.com/photo-1464723775205-4af28be57d80?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80&amp;cs=tinysrgb&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.s-card-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-#parallax2 {
-  background: url("https://images.unsplash.com/photo-1455245580044-664ab5a916db?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80&amp;cs=tinysrgb&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.s-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 48vh;
+  background-color: white;
+  box-shadow: 4px 4px 30px grey;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0.5rem;
+}
+
+.s-card-content {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  width: 48vh;
+  height: 30vh;
+  border-radius: 3px 3px 0 0;
+  margin: 0;
+}
+
+.s-card-title {
+  font-family: 'Noto Sans';
+  font-size: 1.3rem !important;
+  margin: 0;
+}
+
+.s-card-text {
+  margin: 0;
+  font-family: 'Noto Sans';
+  font-size: 12px;
 }
  
 
