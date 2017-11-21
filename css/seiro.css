@@ -783,6 +783,93 @@ img {
   font-family: 'Noto Sans';
   font-size: 12px;
 }
+
+.s-profile-card {
+  width: 48vh;
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 0;
+  box-shadow: 4px 4px 20px #c3c3c3;
+}
+
+.s-profile-card-container {
+  display: flex;
+  justify-content: center;
+  width: 48vh;
+  flex-direction: column;
+}
+
+.s-profile-background {
+  width: 48vh;
+  min-height: 22vh;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.s-profile-picture {
+  margin-top: -70px;
+  display: flex;
+  justify-content: center;
+}
+
+.s-profile-image {
+  width: 20vh;
+  height: 20vh;
+  border-radius: 100%;
+  background-color: white;
+  border: 3px solid white;
+}
+
+.s-profile-media {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.s-profile-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: 'Montserrat';
+  justify-content: center;
+  text-align: center;
+  margin-top: -10px;
+  background-color: white;
+  z-index: -1;
+  border-radius: 0 0 10px 10px;
+  font-family: 'Montserrat';
+}
+
+.s-profile-title {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.s-profile-text {
+  padding: 0;
+  font-size: 0.75rem;
+  margin: 0.5em;
+}
+
+.s-profile-links {
+  letter-spacing: 3px;
+}
+
+.fa-instagram {
+  color: #E44D55;
+}
+
+.fa-linkedin {
+  color: #0076B4;
+}
+
+.fa-twitter {
+  color: #1DA1F4;
+}
  
 
  /*# sourceMappingURL= seiro.css.map */
