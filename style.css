@@ -40,3 +40,12 @@
 .button4 {
 	border-radius: 0 5px 5px 0;
 }
+
+form {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: right;
+	top: 15px;
+	right: 15px;
+}
