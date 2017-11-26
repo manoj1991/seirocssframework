@@ -152,6 +152,26 @@
   transform: scale(1.1) !important;
 }
 
+.outlined-button-white {
+  min-width: 80px;
+  max-width: 130px !important;
+  min-height: 40px;
+  border-radius: 3px !important;
+  border: 1px solid #ffffff !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.outlined-button-white:hover {
+  background-color: #ffffff !important;
+  color: #21D4FD !important;
+  transform: scale(1.1) !important;
+}
+
 .outlined-button-primary {
   min-width: 80px;
   min-height: 40px;
@@ -246,6 +266,3 @@
   color: #ffffff !important;
   transform: scale(1.1) !important;
 }
- 
-
- /*# sourceMappingURL= buttons.css.map */

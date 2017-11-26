@@ -1,6 +1,6 @@
 html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
-  color: #212529 !important;
-  font-family: 'Noto Sans' !important;
+  color: #212529;
+  font-family: 'Noto Sans';
 }
 
 h1 {
@@ -86,6 +86,3 @@ h6 {
   font-size: 1.5rem !important;
   font-weight: 600 !important;
 }
- 
-
- /*# sourceMappingURL= typography-helpers.css.map */

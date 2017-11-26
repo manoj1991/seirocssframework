@@ -1,6 +1,6 @@
 html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
   color: #212529 !important;
-  font-family: 'Noto Sans' !important;
+  font-family: 'Noto Sans';
 }
 
 h1 {
@@ -119,12 +119,13 @@ html, body {
   background-color: #ecf0f1 !important;
 }
 
+.s-grey {
+  background-color: #bdc3c7 !important;
+}
+
 .container {
   max-width: 1344px !important;
   margin: 0 auto !important;
   height: auto !important;
   padding: 30px !important;
 }
- 
-
- /*# sourceMappingURL= defaults.css.map */
