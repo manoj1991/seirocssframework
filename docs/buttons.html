@@ -6,14 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Buttons</title>
-    <link rel="stylesheet" href="../../css/seiro.css">
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../css/seiro.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Catamaran|Noto+Sans" rel="stylesheet">
     <link rel="shortcut icon" href="https://farm5.staticflickr.com/4558/38360678471_57862c56f8_o.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
 </head>
 
 <body>
+<ul class="sidenav" id="sidenav">
+    <li><a class="active" href="buttons.html">Buttons</a></li>
+    <li><a href="banners.html">Banners</a></li>
+    <li><a href="cards.html">Cards</a></li>
+    <li><a href="gallery.html">Gallery</a></li>   
+</ul> 
+<div id="body">
+<div class="navbar">
+    <button class="nav-burger" data-target="sidenav" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+    </button>    
+</div>
 <div class="s-banner-medium s-gradient">
     <div class="s-banner-container">
         <h1 class="s-title text-is-white">Documentation</h1>
@@ -24,13 +37,7 @@
         <p>
             Seiro Css is in very early stages of development but here are some 
             examples of what I have so far.
-        </p>
-        <div class="grouped-buttons">
-            <a href="buttons.html"><button class="grouped-button button1 is-active">Buttons</button></a>
-            <a href="banners.html"><button class="grouped-button button2">Banners</button></a>
-            <a href="cards.html"><button class="grouped-button button3">Cards</button></a>
-            <a href="gallery.html"><button class="grouped-button button4">Gallery</button></a>
-        </div>              
+        </p>         
     </div>
 </div>
 <div class="s-banner">
@@ -176,6 +183,8 @@
 </pre>
 </div>
 </div>
+</div>
+<script src="../../js/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
 <script>

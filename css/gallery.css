@@ -1,0 +1,56 @@
+.gallery {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.photo {
+  box-shadow: 0px 0px 5px #bdc3c7;
+  border-radius: 3px;
+  width: 300px !important;
+  height: 250px !important;
+  margin: 0.6rem !important;
+  box-shadow: 4px 4px 30px #b4b4b4 !important;
+  border-radius: 3px !important;
+}
+
+.photo1, .photo9 {
+  background: url("https://images.unsplash.com/photo-1504814532849-cff240bbc503?auto=format&fit=crop&w=1268&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo2, .photo10 {
+  background: url("https://images.unsplash.com/photo-1463468217891-c11f48e6310a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo3, .photo11 {
+  background: url("https://images.unsplash.com/photo-1464646163800-8331cc18a357?auto=format&fit=crop&w=1346&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo4, .photo12 {
+  background: url("https://images.unsplash.com/photo-1480099835147-7b8f6c6f8b98?auto=format&fit=crop&w=1288&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo5, .photo13 {
+  background: url("https://images.unsplash.com/photo-1482531007909-192ac913980a?auto=format&fit=crop&w=1351&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo6, .photo14 {
+  background: url("https://images.unsplash.com/photo-1454123253751-1fe2b9e0c10d?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo7, .photo15 {
+  background: url("https://images.unsplash.com/photo-1500514966906-fe245eea9344?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}
+
+.photo8, .photo16 {
+  background: url("https://images.unsplash.com/photo-1483560732664-64c6d784340b?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center no-repeat;
+  background-size: cover;
+}

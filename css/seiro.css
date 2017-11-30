@@ -101,7 +101,7 @@ html, body {
 }
 
 .s-primary {
-  background-color: #1abc9c !important;
+  background-color: #1dbce0 !important;
 }
 
 .s-info {
@@ -249,7 +249,7 @@ h6 {
 }
 
 .s-banner-primary {
-  background-color: #1abc9c;
+  background-color: #1dbce0;
   min-height: 15vh;
   padding: 30px;
   display: flex;
@@ -302,7 +302,7 @@ h6 {
 }
 
 .s-banner-primary-medium {
-  background-color: #1abc9c;
+  background-color: #1dbce0;
   min-height: 30vh;
   padding: 30px;
   display: flex;
@@ -355,7 +355,7 @@ h6 {
 }
 
 .s-banner-primary-large {
-  background-color: #1abc9c;
+  background-color: #1dbce0;
   min-height: 60vh;
   padding: 30px;
   display: flex;
@@ -410,7 +410,7 @@ h6 {
 }
 
 .s-banner-primary-fullheight {
-  background-color: #1abc9c;
+  background-color: #1dbce0;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -512,13 +512,13 @@ h6 {
   padding: 5px !important;
   margin: 2px !important;
   color: #ffffff !important;
-  background-color: #1abc9c !important;
+  background-color: #1dbce0 !important;
   -webkit-transition: 0.3s ease-in-out !important;
   transition: 0.3s ease-in-out !important;
 }
 
 .button-primary:hover {
-  background-color: #17a689 !important;
+  background-color: #1aa9c9 !important;
   color: #ffffff !important;
   transform: scale(1.1) !important;
 }
@@ -642,17 +642,17 @@ h6 {
   min-width: 80px;
   min-height: 40px;
   border-radius: 3px !important;
-  border: 1px solid #1abc9c !important;
+  border: 1px solid #1dbce0 !important;
   padding: 5px !important;
   margin: 2px !important;
   background-color: transparent !important;
-  color: #1abc9c !important;
+  color: #1dbce0 !important;
   -webkit-transition: 0.3s ease-in-out !important;
   transition: 0.3s ease-in-out !important;
 }
 
 .outlined-button-primary:hover {
-  background-color: #1abc9c !important;
+  background-color: #1dbce0 !important;
   color: #ffffff !important;
   transform: scale(1.1) !important;
 }

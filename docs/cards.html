@@ -16,6 +16,18 @@
 </head>
 
 <body>
+<ul class="sidenav" id="sidenav">
+    <li><a href="buttons.html">Buttons</a></li>
+    <li><a href="banners.html">Banners</a></li>
+    <li><a class="active" href="cards.html">Cards</a></li>
+    <li><a href="gallery.html">Gallery</a></li>   
+</ul> 
+<div id="body">
+<div class="navbar">
+    <button class="nav-burger" data-target="sidenav" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+    </button>    
+</div>
 <div class="s-banner-medium s-gradient">
         <div class="s-banner-container">
             <h1 class="s-title text-is-white">Documentation</h1>
@@ -27,12 +39,6 @@
                 Seiro Css is in very early stages of development but here are some 
                 examples of what I have so far.
             </p>
-            <div class="grouped-buttons">
-                <a href="buttons.html"><button class="grouped-button button1">Buttons</button></a>
-                <a href="banners.html"><button class="grouped-button button2">Banners</button></a>
-                <a href="cards.html"><button class="grouped-button button3 is-active">Cards</button></a>
-                <a href="gallery.html"><button class="grouped-button button4">Gallery</button></a>
-            </div>              
         </div>
     </div>
     <div class="s-card-grid">
@@ -173,7 +179,8 @@
 </pre>
 </div>
 </div>
-
+</div>
+<script src="../js/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
 <script>
