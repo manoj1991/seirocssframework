@@ -15,182 +15,238 @@
 </head>
 
 <body>
-<ul class="sidenav" id="sidenav">
-    <li><a class="active" href="buttons.html">Buttons</a></li>
-    <li><a href="banners.html">Banners</a></li>
-    <li><a href="cards.html">Cards</a></li>
-    <li><a href="gallery.html">Gallery</a></li>   
-</ul> 
-<div id="body">
-<div class="navbar">
-    <button class="nav-burger" data-target="sidenav" onclick="openNav()">
-        <i class="fa fa-bars fa-lg"></i>
-    </button>    
-</div>
-<div class="s-banner-medium s-gradient">
-    <div class="s-banner-container">
-        <h1 class="s-title text-is-white">Documentation</h1>
-        <h1 class="s-subtitle text-is-white">Buttons</h1>
-    </div>
-</div>
-<div class="s-banner">
-    <div class="s-banner-container">
-        <p>
-            Seiro Css is in very early stages of development but here are some 
-            examples of what I have so far.
-        </p>         
-    </div>
-</div>
-<div class="s-banner">
-    <div class="s-banner-container">
-            <h1 class="s-title">Small Buttons</h1>
-            <div class="buttons">
-                <button class="button btn-small">Default</button>
-                <button class="button-primary btn-small">Primary</button>
-                <button class="button-danger btn-small">Danger</button>
-                <button class="button-warning btn-small">Warning</button>
-                <button class="button-success btn-small">Success</button>
-                <button class="button-info btn-small">Info</button>
+    <ul class="sidenav" id="sidenav">
+        <li>
+            <a class="active" href="buttons.html">Buttons</a>
+        </li>
+        <li>
+            <a href="banners.html">Banners</a>
+        </li>
+        <li>
+            <a href="cards.html">Cards</a>
+        </li>
+        <li>
+            <a href="gallery.html">Gallery</a>
+        </li>
+    </ul>
+    <div id="body">
+        <div class="navbar">
+            <button class="nav-burger" data-target="sidenav" onclick="openNav()">
+                <i class="fa fa-bars fa-lg"></i>
+            </button>
+        </div>
+        <div class="s-banner-medium s-gradient">
+            <div class="s-banner-container">
+                <h1 class="s-title text-is-white">Documentation</h1>
+                <h1 class="s-subtitle text-is-white">Buttons</h1>
             </div>
-<pre>
+        </div>
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <p>
+                    Seiro Css is in very early stages of development but here are some examples of what I have so far.
+                </p>
+            </div>
+        </div>
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title">Small Buttons</h1>
+                <div class="buttons">
+                    <button class="button s-default btn-small">Default</button>
+                    <button class="button s-primary btn-small">Primary</button>
+                    <button class="button s-danger btn-small">Danger</button>
+                    <button class="button s-warning btn-small">Warning</button>
+                    <button class="button s-success btn-small">Success</button>
+                    <button class="button s-info btn-small">Info</button>
+                    <button class="button s-purple btn-small">Purple</button>
+                </div>
+                <pre>
 <code class="language-html">
-&lt;button class=&quot;button btn-small&quot;&gt;Default&lt;/button&gt;
-&lt;button class=&quot;button-primary btn-small&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;button-danger btn-small&quot;&gt;Danger&lt;/button&gt;
-&lt;button class=&quot;button-warning btn-small&quot;&gt;Warning&lt;/button&gt;
-&lt;button class=&quot;button-success btn-small&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;button-info btn-small&quot;&gt;Info&lt;/button&gt;   
+&lt;button class=&quot;button s-default btn-small&quot;&gt;Default&lt;/button&gt;
+&lt;button class=&quot;button s-primary btn-small&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button s-danger btn-small&quot;&gt;Danger&lt;/button&gt;
+&lt;button class=&quot;button s-warning btn-small&quot;&gt;Warning&lt;/button&gt;
+&lt;button class=&quot;button s-success btn-small&quot;&gt;Success&lt;/button&gt;
+&lt;button class=&quot;button s-info btn-small&quot;&gt;Info&lt;/button&gt;
+&lt;button class=&quot;button s-purple btn-small&quot;&gt;Purple&lt;/button&gt;   
 </code>
 </pre>
-    </div>
-</div>
+            </div>
+        </div>
 
-<div class="s-banner">
-    <div class="s-banner-container">
-    <h1 class="s-title">Default Buttons</h1>
-    <div class="buttons">
-        <button class="button">Default</button>
-        <button class="button-primary">Primary</button>
-        <button class="button-danger">Danger</button>
-        <button class="button-warning">Warning</button>
-        <button class="button-success">Success</button>
-        <button class="button-info">Info</button>
-    </div>
-<pre>
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title">Default Buttons</h1>
+                <div class="buttons">
+                    <button class="button s-default">Default</button>
+                    <button class="button s-primary">Primary</button>
+                    <button class="button s-danger">Danger</button>
+                    <button class="button s-warning">Warning</button>
+                    <button class="button s-success">Success</button>
+                    <button class="button s-info">Info</button>
+                    <button class="button s-purple">Purple</button>
+                </div>
+                <pre>
     <code class="language-html">
-&lt;button class=&quot;button&quot;&gt;Default&lt;/button&gt;
-&lt;button class=&quot;button-primary&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;button-danger&quot;&gt;Danger&lt;/button&gt;
-&lt;button class=&quot;button-warning&quot;&gt;Warning&lt;/button&gt;
-&lt;button class=&quot;button-success&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;button-info&quot;&gt;Info&lt;/button&gt;   
+&lt;button class=&quot;button s-default&quot;&gt;Default&lt;/button&gt;
+&lt;button class=&quot;button s-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button s-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button class=&quot;button s-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button class=&quot;button s-success&quot;&gt;Success&lt;/button&gt;
+&lt;button class=&quot;button s-info&quot;&gt;Info&lt;/button&gt;  
+&lt;button class=&quot;button s-purple&quot;&gt;Purple&lt;/button&gt;   
     </code>
 </pre>
-    </div>
-</div>
-
-<div class="s-banner">
-    <div class="s-banner-container">
-    <h1 class="s-title">Large Buttons</h1>
-    <div class="buttons">
-        <button class="button btn-large">Default</button>
-        <button class="button-primary btn-large">Primary</button>
-        <button class="button-danger btn-large">Danger</button>
-        <button class="button-warning btn-large">Warning</button>
-        <button class="button-success btn-large">Success</button>
-        <button class="button-info btn-large">Info</button>
-    </div>
-<pre>
-    <code class="language-html">
-&lt;button class=&quot;button btn-large&quot;&gt;Default&lt;/button&gt;
-&lt;button class=&quot;button-primary btn-large&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;button-danger btn-large&quot;&gt;Danger&lt;/button&gt;
-&lt;button class=&quot;button-warning btn-large&quot;&gt;Warning&lt;/button&gt;
-&lt;button class=&quot;button-success btn-large&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;button-info btn-large&quot;&gt;Info&lt;/button&gt;   
-    </code>
-</pre>    
-</div>
-</div>
-
-<div class="s-banner">
-    <div class="s-banner-container">
-        <h1 class="s-title">Small Outlined Buttons</h1>
-        <div class="buttons">
-            <button class="outlined-button btn-small">Default</button>
-            <button class="outlined-button-primary btn-small">Primary</button>
-            <button class="outlined-button-danger btn-small">Danger</button>
-            <button class="outlined-button-warning btn-small">Warning</button>
-            <button class="outlined-button-success btn-small">Success</button>
-            <button class="outlined-button-info btn-small">Info</button>
+            </div>
         </div>
-<pre>
+
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title">Large Buttons</h1>
+                <div class="buttons">
+                    <button class="button s-default btn-large">Default</button>
+                    <button class="button s-primary btn-large">Primary</button>
+                    <button class="button s-danger btn-large">Danger</button>
+                    <button class="button s-warning btn-large">Warning</button>
+                    <button class="button s-success btn-large">Success</button>
+                    <button class="button s-info btn-large">Info</button>
+                    <button class="button s-purple btn-large">Purple</button>
+                </div>
+                <pre>
+    <code class="language-html">
+&lt;button class=&quot;button s-default btn-large&quot;&gt;Default&lt;/button&gt;
+&lt;button class=&quot;button s-primary btn-large&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;button s-danger btn-large&quot;&gt;Danger&lt;/button&gt;
+&lt;button class=&quot;button s-warning btn-large&quot;&gt;Warning&lt;/button&gt;
+&lt;button class=&quot;button s-success btn-large&quot;&gt;Success&lt;/button&gt;
+&lt;button class=&quot;button s-info btn-large&quot;&gt;Info&lt;/button&gt;
+&lt;button class=&quot;button s-purple btn-large&quot;&gt;Purple&lt;/button&gt;   
+    </code>
+</pre>
+            </div>
+        </div>
+
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title">Small Outlined Buttons</h1>
+                <div class="buttons">
+                    <button class="outlined-button btn-small">Default</button>
+                    <button class="outlined-button-primary btn-small">Primary</button>
+                    <button class="outlined-button-danger btn-small">Danger</button>
+                    <button class="outlined-button-warning btn-small">Warning</button>
+                    <button class="outlined-button-success btn-small">Success</button>
+                    <button class="outlined-button-info btn-small">Info</button>
+                    <button class="outlined-button-purple btn-small">Purple</button>
+                </div>
+                <pre>
     <code class="language-html">
 &lt;button class=&quot;outlined-button btn-small&quot;&gt;Default&lt;/button&gt;
 &lt;button class=&quot;outlined-button-primary btn-small&quot;&gt;Primary&lt;/button&gt;
 &lt;button class=&quot;outlined-button-danger btn-small&quot;&gt;Danger&lt;/button&gt;
 &lt;button class=&quot;outlined-button-warning btn-small&quot;&gt;Warning&lt;/button&gt;
 &lt;button class=&quot;outlined-button-success btn-small&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;outlined-button-info btn-small&quot;&gt;Info&lt;/button&gt;   
+&lt;button class=&quot;outlined-button-info btn-small&quot;&gt;Info&lt;/button&gt;
+&lt;button class=&quot;outlined-button-purple btn-small&quot;&gt;Purple&lt;/button&gt;   
     </code>
 </pre>
-    </div>
-</div>
-
-<div class="s-banner">
-    <div class="s-banner-container">
-        <h1 class="s-title"> Default Outlined Buttons</h1>
-        <div class="buttons">
-            <button class="outlined-button">Default</button>
-            <button class="outlined-button-primary">Primary</button>
-            <button class="outlined-button-danger">Danger</button>
-            <button class="outlined-button-warning">Warning</button>
-            <button class="outlined-button-success">Success</button>
-            <button class="outlined-button-info">Info</button>
+            </div>
         </div>
-<pre>
+
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title"> Default Outlined Buttons</h1>
+                <div class="buttons">
+                    <button class="outlined-button">Default</button>
+                    <button class="outlined-button-primary">Primary</button>
+                    <button class="outlined-button-danger">Danger</button>
+                    <button class="outlined-button-warning">Warning</button>
+                    <button class="outlined-button-success">Success</button>
+                    <button class="outlined-button-info">Info</button>
+                    <button class="outlined-button-purple">Purple</button>
+                </div>
+                <pre>
     <code class="language-html">
 &lt;button class=&quot;outlined-button&quot;&gt;Default&lt;/button&gt;
 &lt;button class=&quot;outlined-button-primary&quot;&gt;Primary&lt;/button&gt;
 &lt;button class=&quot;outlined-button-danger&quot;&gt;Danger&lt;/button&gt;
 &lt;button class=&quot;outlined-button-warning&quot;&gt;Warning&lt;/button&gt;
 &lt;button class=&quot;outlined-button-success&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;outlined-button-info&quot;&gt;Info&lt;/button&gt;   
+&lt;button class=&quot;outlined-button-info&quot;&gt;Info&lt;/button&gt;  
+&lt;button class=&quot;outlined-button-purple&quot;&gt;Purple&lt;/button&gt;    
     </code>
-</pre>        
-</div>
-</div>
-
-<div class="s-banner">
-    <div class="s-banner-container">
-        <h1 class="s-title">Large Outlined Buttons</h1>
-        <div class="buttons">
-            <button class="outlined-button btn-large">Default</button>
-            <button class="outlined-button-primary btn-large">Primary</button>
-            <button class="outlined-button-danger btn-large">Danger</button>
-            <button class="outlined-button-warning btn-large">Warning</button>
-            <button class="outlined-button-success btn-large">Success</button>
-            <button class="outlined-button-info btn-large">Info</button>
+</pre>
+            </div>
         </div>
-<pre>
+
+        <div class="s-banner">
+            <div class="s-banner-container">
+                <h1 class="s-title">Large Outlined Buttons</h1>
+                <div class="buttons">
+                    <button class="outlined-button btn-large">Default</button>
+                    <button class="outlined-button-primary btn-large">Primary</button>
+                    <button class="outlined-button-danger btn-large">Danger</button>
+                    <button class="outlined-button-warning btn-large">Warning</button>
+                    <button class="outlined-button-success btn-large">Success</button>
+                    <button class="outlined-button-info btn-large">Info</button>
+                    <button class="outlined-button-purple btn-large">Purple</button>
+                </div>
+                <pre>
 <code class="language-html">
 &lt;button class=&quot;outlined-button btn-large&quot;&gt;Default&lt;/button&gt;
 &lt;button class=&quot;outlined-button-primary btn-large&quot;&gt;Primary&lt;/button&gt;
 &lt;button class=&quot;outlined-button-danger btn-large&quot;&gt;Danger&lt;/button&gt;
 &lt;button class=&quot;outlined-button-warning btn-large&quot;&gt;Warning&lt;/button&gt;
 &lt;button class=&quot;outlined-button-success btn-large&quot;&gt;Success&lt;/button&gt;
-&lt;button class=&quot;outlined-button-info btn-large&quot;&gt;Info&lt;/button&gt;   
+&lt;button class=&quot;outlined-button-info btn-large&quot;&gt;Info&lt;/button&gt; 
+&lt;button class=&quot;outlined-button-purple btn-large&quot;&gt;Purple&lt;/button&gt;    
 </code>
 </pre>
-</div>
-</div>
-</div>
-<script src="../../js/index.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-<script>
-AOS.init();
-</script>
+            </div>
+        </div>
+
+        <div class="s-banner s-primary">
+            <div class="s-banner-container" id="signUp">
+                <h1 class="s-title">Sign Up For Newsletter</h1>
+                <h1 class="s-subtitle">Get Notified When Seiro CSS is Released!</h1>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="https://seirocss.us17.list-manage.com/subscribe/post?u=b2ab6e5e22fd958eaca983667&amp;id=d0980b0bde" method="post"
+                        id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_b2ab6e5e22fd958eaca983667_d0980b0bde" tabindex="-1" value="">
+                            </div>
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="outlined-button-white">
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+                <h1 class="s-subtitle" style="margin-top: 10px; margin-bottom:5px;">Support SeiroCSS</h1>
+                <div class="buttons">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="VTFMLVHSETMBN">
+                        <button class="outlined-button-white btn-small" name="submit" alt="Donate">
+                            <i class="fa fa-paypal" aria-hidden="true" style="margin-right: 5px"></i>
+                            Donate
+                        </button>
+                    </form>
+                    <a class="github-button" href="https://github.com/nadsr2/seirocssframework" data-size="large" data-show-count="true" aria-label="Star nadsr2/seirocssframework on GitHub">Star</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="../../js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 
 </html>

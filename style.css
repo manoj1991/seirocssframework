@@ -85,3 +85,17 @@ li a.active {
 li a:hover:not(.active) {
     background-color: rgb(226, 226, 226);
 }
+
+#mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.email {
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    padding: 5px;
+}

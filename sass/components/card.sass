@@ -1,9 +1,10 @@
+@import "../variables/initial-variables.sass"
+
 .s-card-grid 
 	display: flex
 	flex-direction: row
 	justify-content: center
 	flex-wrap: wrap
-
 
 .s-card 
 	display: flex
@@ -11,15 +12,18 @@
 	max-width: 100%
 	width: 48vh
 	background-color: white
-	box-shadow: 4px 4px 30px grey
+	box-shadow: 2px 2px 20px $grey-light
 	border-radius: 3px
 	padding: 0
 	margin: 0.5rem
+	-webkit-transition: 0.3s ease-in-out !important
+    transition: 0.2s ease-in-out !important
 
+.s-card:hover
+	box-shadow: 4px 4px 20px $grey
 
 .s-card-content 
 	padding: 20px
-
 
 img 
 	max-width: 100%
@@ -28,12 +32,10 @@ img
 	border-radius: 3px 3px 0 0
 	margin: 0
 
-
 .s-card-title 
 	font-family: 'Noto Sans'
 	font-size: 1.3rem !important
 	margin: 0
-
 
 .s-card-text 
 	margin: 0
@@ -48,7 +50,12 @@ img
 	border-radius: 10px
 	margin: 15px
 	padding: 0
-	box-shadow: 4px 4px 20px #c3c3c3	
+	box-shadow: 2px 2px 20px $grey-light
+	-webkit-transition: 0.3s ease-in-out !important
+    transition: 0.2s ease-in-out !important	
+
+.s-profile-card:hover
+	box-shadow: 4px 4px 20px $grey
 
 .s-profile-card-container
 	display: flex

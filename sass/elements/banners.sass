@@ -12,12 +12,12 @@ $s-banner-direction: column !default
 $s-banner-justify: center !default
 
 .s-gradient
-    background: -webkit-linear-gradient(#21D4FD, 	#158ba5)
-    color: white
+  background: -webkit-linear-gradient(#21D4FD, 	#158ba5)
+  color: white
 
 .s-banner-container
   display: $s-banner-display !important
-  flex-direction: $s-banner-direction !important
+  flex-direction: $s-banner-direction
   justify-content: center !important
   width: 100% !important
 
@@ -28,92 +28,12 @@ $s-banner-justify: center !default
   display: $s-banner-display 
   align-items: $s-banner-align-items
 
-.s-banner-primary
-  background-color: $primary
-  min-height: $s-banner-default
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-danger
-  background-color: $danger
-  min-height: $s-banner-default
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-warning
-  background-color: $warning
-  min-height: $s-banner-default
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-success 
-  background-color: $success
-  min-height: $s-banner-default
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-info
-  background-color: $info
-  min-height: $s-banner-default
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
 .s-banner-medium
   background-color: $white
   min-height: $s-banner-medium
   padding: $s-banner-padding
   display: $s-banner-display
   align-items: $s-banner-align-items
-
-.s-banner-primary-medium
-  background-color: $primary
-  min-height: $s-banner-medium
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-danger-medium
-  background-color: $danger
-  min-height: $s-banner-medium
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items 
-  color: $white
-
-.s-banner-warning-medium
-  background-color: $warning
-  min-height: $s-banner-medium
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-success-medium
-  background-color: $success
-  min-height: $s-banner-medium
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-info-medium
-  background-color: $info
-  min-height: $s-banner-medium
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
 
 .s-banner-large
   background-color: $white
@@ -130,38 +50,6 @@ $s-banner-justify: center !default
   align-items: $s-banner-align-items
   color: $white
 
-.s-banner-danger-large
-  background-color: $danger
-  min-height: $s-banner-large
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-warning-large
-  background-color: $warning
-  min-height: $s-banner-large
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-success-large
-  background-color: $success
-  min-height: $s-banner-large
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
-.s-banner-info-large
-  background-color: $info
-  min-height: $s-banner-large
-  padding: $s-banner-padding
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  color: $white
-
 .s-banner-fullheight
   background-color: $white
   min-height: $s-banner-fullheight
@@ -170,53 +58,3 @@ $s-banner-justify: center !default
   justify-content: $s-banner-justify
   flex-direction: $s-banner-direction
   padding: $s-banner-padding
-
-.s-banner-primary-fullheight
-  background-color: $primary
-  min-height: $s-banner-fullheight
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  justify-content: $s-banner-justify
-  flex-direction: $s-banner-direction
-  padding: $s-banner-padding
-  color: $white
-
-.s-banner-danger-fullheight
-  background-color: $danger
-  min-height: $s-banner-fullheight
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  justify-content: $s-banner-justify
-  flex-direction: $s-banner-direction
-  padding: $s-banner-padding
-  color: $white
-
-.s-banner-warning-fullheight
-  background-color: $warning
-  min-height: $s-banner-fullheight
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  justify-content: $s-banner-justify
-  flex-direction: $s-banner-direction
-  padding: $s-banner-padding
-  color: $white
-
-.s-banner-success-fullheight
-  background-color: $success
-  min-height: $s-banner-fullheight
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  justify-content: $s-banner-justify
-  flex-direction: $s-banner-direction
-  padding: $s-banner-padding
-  color: $white
-
-.s-banner-info-fullheight
-  background-color: $info
-  min-height: $s-banner-fullheight
-  display: $s-banner-display
-  align-items: $s-banner-align-items
-  justify-content: $s-banner-justify
-  flex-direction: $s-banner-direction
-  padding: $s-banner-padding
-  color: $white

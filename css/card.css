@@ -11,10 +11,16 @@
   max-width: 100%;
   width: 48vh;
   background-color: white;
-  box-shadow: 4px 4px 30px grey;
+  box-shadow: 2px 2px 20px #bdc3c7;
   border-radius: 3px;
   padding: 0;
   margin: 0.5rem;
+  -webkit-transition: 0.3s ease-in-out !important;
+  -webkit-transition-transition: 0.2s ease-in-out !important;
+}
+
+.s-card:hover {
+  box-shadow: 4px 4px 20px #95a5a6;
 }
 
 .s-card-content {
@@ -49,7 +55,13 @@ img {
   border-radius: 10px;
   margin: 15px;
   padding: 0;
-  box-shadow: 4px 4px 20px #c3c3c3;
+  box-shadow: 2px 2px 20px #bdc3c7;
+  -webkit-transition: 0.3s ease-in-out !important;
+  -webkit-transition-transition: 0.2s ease-in-out !important;
+}
+
+.s-profile-card:hover {
+  box-shadow: 4px 4px 20px #95a5a6;
 }
 
 .s-profile-card-container {

@@ -1,36 +1,35 @@
 html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
-  color: #212529;
   font-family: 'Noto Sans';
 }
 
 h1 {
-  font-size: 3.5rem !important;
-  padding: 0 !important;
+  font-size: 3.5rem;
+  padding: 0;
 }
 
 h2 {
-  font-size: 3rem !important;
-  padding: 0 !important;
+  font-size: 3rem;
+  padding: 0;
 }
 
 h3 {
-  font-size: 2.5rem !important;
-  padding: 0 !important;
+  font-size: 2.5rem;
+  padding: 0;
 }
 
 h4 {
-  font-size: 2rem !important;
-  padding: 0 !important;
+  font-size: 2rem;
+  padding: 0;
 }
 
 h5 {
-  font-size: 1.5rem !important;
-  padding: 0 !important;
+  font-size: 1.5rem;
+  padding: 0;
 }
 
 h6 {
-  font-size: 1rem !important;
-  padding: 0 !important;
+  font-size: 1rem;
+  padding: 0;
 }
 
 .text-is-centered {
@@ -65,7 +64,7 @@ h6 {
   font-size: 2rem !important;
 }
 
-.size-is-5, .s-title {
+.size-is-5 {
   font-size: 1.5rem !important;
 }
 
@@ -78,11 +77,11 @@ h6 {
 }
 
 .s-subtitle {
-  font-size: 1rem !important;
-  font-weight: 300 !important;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .s-title {
-  font-size: 1.5rem !important;
-  font-weight: 600 !important;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
