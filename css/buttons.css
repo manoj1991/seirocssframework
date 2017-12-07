@@ -89,7 +89,6 @@
 .outlined-button:hover {
   background-color: #e1e1e1 !important;
   color: #ffffff !important;
-  transform: scale(1.1) !important;
 }
 
 .outlined-button-white {
