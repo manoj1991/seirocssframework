@@ -82,12 +82,18 @@ h6 {
 }
 
 .s-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 html, body {
   margin: 0 !important;
+}
+
+hr {
+  width: 55vh;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
 }
 
 .s-primary {
