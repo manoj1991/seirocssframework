@@ -48,6 +48,10 @@ h6 {
   color: #ffffff !important;
 }
 
+.text-is-grey {
+  color: #c3c3c3 !important;
+}
+
 .size-is-1 {
   font-size: 3.5rem !important;
 }
