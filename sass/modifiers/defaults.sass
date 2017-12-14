@@ -1,7 +1,6 @@
 @import "typography-helpers.sass"
 @import "../variables/derived-variables.sass"
 
-//default html margin
 html, body
     margin: 0 !important
 
@@ -9,6 +8,10 @@ hr
     width: 55vh
     margin: 0 auto
     border: 1px solid #e1e1e1
+
+a 
+    margin: 0
+    padding: 0
 
 //default colors, just apply color class to get the color
 .s-primary
@@ -33,10 +36,11 @@ hr
 
 .s-default
     background-color: $default !important
-    color: $black-flat
+    color: $black-flat !important
 
 .s-light
     background-color: $light !important
+    color: $black-flat !important
 
 .s-grey
     background-color: $silver !important
@@ -54,9 +58,16 @@ hr
     background-color: $black-flat !important
     color: $white !important
 
+.s-gradient
+    background: -webkit-linear-gradient(#21D4FD, #158ba5) !important
+    color: $white !important
+
 .container 
     max-width: $fullhd !important
     margin: 0 auto !important
     height: auto !important
     padding: 30px !important
+
+.is-spaced
+    margin-bottom: 10px
 

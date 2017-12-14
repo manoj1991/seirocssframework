@@ -13,14 +13,14 @@ $button-margin: 2px !default
 $bg-color: rgba(0, 0, 0, 0) !default
 
 .buttons
-    display: flex !important
-    flex-direction: row !important
-    flex-wrap: wrap !important
-    justify-content: left !important
-    align-items: center !important
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: left
+    align-items: center
 
 .btn-small
-    display: flex
+    display: flex !important
     align-items: center !important
     justify-content: center !important
     min-width: $button-width-small !important
@@ -29,7 +29,7 @@ $bg-color: rgba(0, 0, 0, 0) !default
     padding: $button-padding !important
 
 .btn-large
-    display: flex
+    display: flex !important
     align-items: center !important
     justify-content: center !important
     min-width: $button-width-large !important
@@ -38,10 +38,10 @@ $bg-color: rgba(0, 0, 0, 0) !default
     padding: $button-padding !important
 
 .button 
-    display: flex
+    display: flex !important
     align-items: center !important
     justify-content: center !important
-    min-width: $button-width
+    min-width: $button-width 
     min-height: $button-height
     border-radius: $button-radius !important
     border: none !important
@@ -53,172 +53,108 @@ $bg-color: rgba(0, 0, 0, 0) !default
     transition: 0.3s ease-in-out !important
 
 .button.s-default:hover
-    background-color: darken($default,5%) !important
+    background-color: darken($default,5%)
 
 .button.s-primary:hover
-    background-color: darken($primary,5%) !important
+    background-color: darken($primary, 5%)
 
 .button.s-danger:hover
-    background-color: darken($danger,5%) !important
+    background-color: darken($danger, 5%)
 
 .button.s-warning:hover
-    background-color: darken($warning,5%) !important
+    background-color: darken($warning, 5%)
 
 .button.s-success:hover
-    background-color: darken($success,5%) !important
+    background-color: darken($success, 5%)
 
 .button.s-info:hover
-    background-color: darken($info,5%) !important
+    background-color: darken($info, 5%)
 
 .button.s-purple:hover
-    background-color: darken($purple, 5%) !important
+    background-color: darken($purple, 5%)
+
+.outlined
+    display: flex
+    align-items: center
+    justify-content: center
+    min-width: $button-width
+    min-height: $button-height
+    border-radius: $button-radius
+    padding: $button-padding
+    margin: $button-margin
+    background-color: $bg-color
+    -webkit-transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out
 
 .outlined-button
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $default !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $default !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
+    @extend .outlined
+    color: $default
+    border: 1px solid $default
 
 .outlined-button:hover
-    background-color: $default !important
-    color: $white !important
+    background-color: $default
+    color: $white
 
 .outlined-button-white
-    min-width: $button-width
-    max-width: $button-width + 50px !important
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $white !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $white !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
+    @extend .outlined
+    color: $default
+    border: 1px solid $default
 
 .outlined-button-white:hover
-    background-color: $white !important
-    color: #21D4FD !important
+    background-color: $white
+    color: #21D4FD
 
 .outlined-button-primary
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $primary !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $primary !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
-
+    @extend .outlined
+    color: $primary
+    border: 1px solid $primary
+    
 .outlined-button-primary:hover
-    background-color: $primary !important
-    color: $white !important
+    background-color: $primary
+    color: $white
 
 .outlined-button-danger
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $danger !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $danger !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
-
+    @extend .outlined
+    color: $danger
+    border: 1px solid $danger
+    
 .outlined-button-danger:hover
-    background-color: $danger !important
-    color: $white !important
+    background-color: $danger
+    color: $white
 
 .outlined-button-warning
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $warning !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $warning !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
-
+    @extend .outlined
+    color: $warning
+    border: 1px solid $warning
+    
 .outlined-button-warning:hover
-    background-color: $warning !important
-    color: $white !important
+    background-color: $warning
+    color: $white
 
 .outlined-button-success
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $success !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $success !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
+    @extend .outlined
+    color: $success
+    border: 1px solid $success
+   
 
 .outlined-button-success:hover
-    background-color: $success !important
-    color: $white !important
+    background-color: $success
+    color: $white
 
 .outlined-button-info
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $info !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $info !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
-
+    @extend .outlined
+    color: $info
+    border: 1px solid $info
+    
 .outlined-button-info:hover
-    background-color: $info !important
-    color: $white !important
+    background-color: $info
+    color: $white
 
 .outlined-button-purple
-    display: flex
-    align-items: center !important
-    justify-content: center !important
-    min-width: $button-width
-    min-height: $button-height
-    border-radius: $button-radius !important
-    border: 1px solid $purple !important
-    padding: $button-padding !important
-    margin: $button-margin !important
-    background-color: $bg-color !important
-    color: $purple !important
-    -webkit-transition: 0.3s ease-in-out !important
-    transition: 0.3s ease-in-out !important
+    @extend .outlined
+    color: $purple
+    border: 1px solid $purple
 
 .outlined-button-purple:hover
-    background-color: $purple !important
-    color: $white !important
+    background-color: $purple
+    color: $white

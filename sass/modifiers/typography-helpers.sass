@@ -1,40 +1,42 @@
 @import "../variables/initial-variables"
 
-$default-text-color: $black !default
-$text-is-white: $white !default
 $s-title-weight: $weight-semibold !default
-$s-title-size: $size-4 !default
 $subtitle-weight: $weight-light !default
-$subtitle-size: $size-6 !default
 
 //default color and font-family
 html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul 
-    font-family: 'Noto Sans'
+    font-family: 'Roboto'
 
 //default header sizes
 h1
     font-size: $size-1 
     padding: 0 
+    margin: 0
 
 h2
     font-size: $size-2 
-    padding: 0 
+    padding: 0
+    margin: 0 
 
 h3
     font-size: $size-3
     padding: 0
+    margin: 0
 
 h4
     font-size: $size-4
     padding: 0
+    margin: 0
 
 h5
     font-size: $size-5
     padding: 0
+    margin: 0
 
 h6
     font-size: $size-6
     padding: 0
+    margin: 0
 
 //align text
 .text-is-centered
@@ -48,7 +50,7 @@ h6
 
 //text colors
 .text-is-white
-    color: $text-is-white !important
+    color: $white !important
 
 .text-is-grey
     color: $grey !important
@@ -76,9 +78,14 @@ h6
     font-size: $size-7 !important
 
 .s-subtitle
-    font-size: $subtitle-size 
+    font-size: $size-6
     font-weight: $subtitle-weight
+    margin: 0
 
 .s-title
     font-size: $size-4
-    font-weight: $s-title-weight
+    margin: 0
+
+.s-bold-title
+    font-size: $size-4
+    font-weight: $weight-extrabold

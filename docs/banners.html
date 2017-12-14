@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="../css/seiro.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Catamaran|Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Catamaran|Noto+Sans|Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="https://farm5.staticflickr.com/4558/38360678471_57862c56f8_o.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css">
 </head>
 
 <body>
@@ -22,370 +21,308 @@
     <li><a href="gallery.html">Gallery</a></li>   
 </ul> 
 <div id="body">
-<div class="navbar">
-    <button class="nav-burger" data-target="sidenav" onclick="openNav()">
-        <i class="fa fa-bars fa-lg"></i>
-    </button>    
-</div>
 
-<div class="s-banner-medium s-gradient">
-  <div class="s-banner-container">
-      <h1 class="s-title text-is-white">Documentation</h1>
-      <h1 class="s-subtitle text-is-white">Banners</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-      <p>
-        Seiro Css is in very early stages of development but here are some 
-        examples of what I have so far.
-      </p>
-  </div>
-</div>
+    <div class="navbar">
+        <button class="nav-burger" data-target="sidenav" onclick="openNav()">
+            <i class="fa fa-bars fa-lg"></i>
+        </button>    
+    </div>
 
-<div class="s-banner s-primary">
-  <div class="s-banner-container">
-      <h1 class="s-title">Primary Banner</h1>
-      <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-<div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner s-primary&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Primary Banner&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-</div>
-</div>
-
-
-<div class="s-banner">
-  <div class="s-banner-container">
-    <h1 class="s-title">Default Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-<div class="s-banner-container">
-<pre>
-<code class="language-html">
-&lt;div class=&quot;s-banner&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Default Banner&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-</div>
-</div>
-
-<div class="s-banner s-danger">
-  <div class="s-banner-container">
-      <h1 class="s-title">Danger Banner</h1>
-      <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner s-warning">
-  <div class="s-banner-container">
-    <h1 class="s-title">Warning Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner s-success">
-  <div class="s-banner-container">
-    <h1 class="s-title">Success Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner s-info">
-  <div class="s-banner-container">
-    <h1 class="s-title">Info Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner s-purple">
-  <div class="s-banner-container">
-    <h1 class="s-title">Purple Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-medium">
-  <div class="s-banner-container">
-    <h1 class="s-title">Medium Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-    <pre>
-      <code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-medium&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Medium Banner&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-      </code>
-    </pre>    
-  </div>
-</div>
-
-<div class="s-banner-medium s-primary">
-  <div class="s-banner-container">
-    <h1 class="s-title">Primary Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-medium s-primary&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Primary Medium&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-  </div>
-</div>
-
-<div class="s-banner-medium s-danger">
-  <div class="s-banner-container">
-    <h1 class="s-title">Danger Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-medium s-warning">
-  <div class="s-banner-container">
-    <h1 class="s-title">Warning Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-medium s-success">
-  <div class="s-banner-container">
-    <h1 class="s-title">Success Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-medium s-info">
-  <div class="s-banner-container">
-    <h1 class="s-title">Info Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-medium s-purple">
-  <div class="s-banner-container">
-    <h1 class="s-title">Purple Medium</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-large">
-  <div class="s-banner-container">
-    <h1 class="s-title">Large Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-large&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Large Banner&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-  </div>
-</div>
-
-<div class="s-banner-large s-primary">
-  <div class="s-banner-container">
-    <h1 class="s-title">Primary Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-primary-large&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Primary Large&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-  </div>
-</div>
-
-<div class="s-banner-large s-danger">
-  <div class="s-banner-container">
-    <h1 class="s-title">Danger Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-large s-warning">
-  <div class="s-banner-container">
-    <h1 class="s-title">Warning Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-large s-success">
-  <div class="s-banner-container">
-    <h1 class="s-title">Success Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-large s-info">
-  <div class="s-banner-container">
-    <h1 class="s-title">Info Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-large s-purple">
-  <div class="s-banner-container">
-    <h1 class="s-title">Purple Large</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-fullheight">
-  <div class="s-banner-container">
-    <h1 class="s-title">Fullheight Banner</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-fullheight&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Fullheight Banner&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-primary">
-  <div class="s-banner-container">
-    <h1 class="s-title">Primary Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-<div class="s-banner">
-  <div class="s-banner-container">
-<pre>
-<code class="language-html" data-lang="html">
-&lt;div class=&quot;s-banner-primary-fullheight&quot;&gt;
-  &lt;div class=&quot;s-banner-container&quot;&gt;
-    &lt;h1 class=&quot;s-title&quot;&gt;Primary Fullheight&lt;/h1&gt;
-    &lt;h1 class=&quot;s-subtitle&quot;&gt;Subtitle&lt;/h1&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-</code>
-</pre>    
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-danger">
-  <div class="s-banner-container">
-    <h1 class="s-title">Danger Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-warning">
-  <div class="s-banner-container">
-    <h1 class="s-title">Warning Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-success">
-  <div class="s-banner-container">
-    <h1 class="s-title">Success Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-info">
-  <div class="s-banner-container">
-    <h1 class="s-title">Info Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-<div class="s-banner-fullheight s-purple">
-  <div class="s-banner-container">
-    <h1 class="s-title">Purple Fullheight</h1>
-    <h1 class="s-subtitle">Subtitle</h1>
-  </div>
-</div>
-
-
-<div class="s-banner s-primary">
-    <div class="s-banner-container" id="signUp">
-        <h1 class="s-title">Sign Up For Newsletter</h1>
-        <h1 class="s-subtitle">Get Notified When Seiro CSS is Released!</h1>
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-            <form action="https://seirocss.us17.list-manage.com/subscribe/post?u=b2ab6e5e22fd958eaca983667&amp;id=d0980b0bde" method="post"
-                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        <input type="text" name="b_b2ab6e5e22fd958eaca983667_d0980b0bde" tabindex="-1" value="">
-                    </div>
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="outlined-button-white">
-                </div>
-            </form>
-        </div>
-        <!--End mc_embed_signup-->
-        <h1 class="s-subtitle" style="margin-top: 10px; margin-bottom:5px;">Support SeiroCSS</h1>
-        <div class="buttons">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="VTFMLVHSETMBN">
-                <button class="outlined-button-white btn-small" name="submit" alt="Donate">
-                    <i class="fa fa-paypal" aria-hidden="true" style="margin-right: 5px"></i>
-                    Donate
-                </button>
-            </form>
-            <a class="github-button" href="https://github.com/nadsr2/seirocssframework" data-size="large" data-show-count="true" aria-label="Star nadsr2/seirocssframework on GitHub">Star</a>
+    <div class="s-banner-medium s-gradient">
+        <div class="s-banner-container">
+            <h1 class="s-title">Documentation</h1>
+            <h1 class="s-subtitle">Banners</h1>
         </div>
     </div>
-</div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <p>
+                Seiro Css is in very early stages of development but here are some 
+                examples of what I have so far.
+            </p>
+        </div>
+    </div>
+
+    <div class="s-banner s-primary">
+        <div class="s-banner-container">
+            <h1 class="s-title">Primary Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/b1cfa199e0fdfd4ce30b628e14207a8f.js"></script>
+        </div>
+    </div>
+
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <h1 class="s-title">Default Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/f73602ece720d803763f81e0e174a033.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner s-danger">
+        <div class="s-banner-container">
+            <h1 class="s-title">Danger Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner s-warning">
+        <div class="s-banner-container">
+            <h1 class="s-title">Warning Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner s-success">
+        <div class="s-banner-container">
+            <h1 class="s-title">Success Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner s-info">
+        <div class="s-banner-container">
+            <h1 class="s-title">Info Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner s-purple">
+        <div class="s-banner-container">
+            <h1 class="s-title">Purple Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-medium">
+        <div class="s-banner-container">
+            <h1 class="s-title">Medium Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/ebb6b412556a528da22f2da98cec41fd.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-primary">
+        <div class="s-banner-container">
+            <h1 class="s-title">Primary Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/0c5438fd5f88297afd951d5921cb7c2a.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-danger">
+        <div class="s-banner-container">
+            <h1 class="s-title">Danger Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-warning">
+        <div class="s-banner-container">
+            <h1 class="s-title">Warning Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-success">
+        <div class="s-banner-container">
+            <h1 class="s-title">Success Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-info">
+        <div class="s-banner-container">
+            <h1 class="s-title">Info Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-medium s-purple">
+        <div class="s-banner-container">
+            <h1 class="s-title">Purple Medium</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-large">
+        <div class="s-banner-container">
+            <h1 class="s-title">Large Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/7661665bf236c9b06c828875811c14a4.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-primary">
+        <div class="s-banner-container">
+            <h1 class="s-title">Primary Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/c5998ee86bf92deadcad1aec6509ce3a.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-danger">
+        <div class="s-banner-container">
+            <h1 class="s-title">Danger Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-warning">
+        <div class="s-banner-container">
+            <h1 class="s-title">Warning Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-success">
+        <div class="s-banner-container">
+            <h1 class="s-title">Success Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-info">
+        <div class="s-banner-container">
+            <h1 class="s-title">Info Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-large s-purple">
+        <div class="s-banner-container">
+            <h1 class="s-title">Purple Large</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight">
+        <div class="s-banner-container">
+            <h1 class="s-title">Fullheight Banner</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/731c908e1bd20aaca3e13a604f2d8cf5.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-primary">
+        <div class="s-banner-container">
+            <h1 class="s-title">Primary Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner">
+        <div class="s-banner-container">
+            <script src="https://gist.github.com/nadsr2/4cd034a7c178ad028404071a212ed41e.js"></script>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-danger">
+        <div class="s-banner-container">
+            <h1 class="s-title">Danger Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-warning">
+        <div class="s-banner-container">
+            <h1 class="s-title">Warning Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-success">
+        <div class="s-banner-container">
+            <h1 class="s-title">Success Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-info">
+        <div class="s-banner-container">
+            <h1 class="s-title">Info Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+    <div class="s-banner-fullheight s-purple">
+        <div class="s-banner-container">
+            <h1 class="s-title">Purple Fullheight</h1>
+            <h1 class="s-subtitle">Subtitle</h1>
+        </div>
+    </div>
+
+
+    <div class="s-banner s-primary">
+        <div class="s-banner-container" id="signUp">
+            <h1 class="s-title">Sign Up For Newsletter</h1>
+            <h1 class="s-subtitle">Get Notified When Seiro CSS is Released!</h1>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://seirocss.us17.list-manage.com/subscribe/post?u=b2ab6e5e22fd958eaca983667&amp;id=d0980b0bde" method="post"
+                    id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            <input type="text" name="b_b2ab6e5e22fd958eaca983667_d0980b0bde" tabindex="-1" value="">
+                        </div>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="outlined-button-white">
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+            <h1 class="s-subtitle" style="margin-top: 10px; margin-bottom:5px;">Support SeiroCSS</h1>
+            <div class="buttons">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="VTFMLVHSETMBN">
+                    <button class="outlined-button-white btn-small" name="submit" alt="Donate">
+                        <i class="fa fa-paypal" aria-hidden="true" style="margin-right: 5px"></i>
+                        Donate
+                    </button>
+                </form>
+                <a class="github-button" href="https://github.com/nadsr2/seirocssframework" data-size="large" data-show-count="true" aria-label="Star nadsr2/seirocssframework on GitHub">Star</a>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="../js/index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
