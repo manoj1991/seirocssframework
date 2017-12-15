@@ -20,7 +20,7 @@
 
 div.navbar {
     display: flex;
-    justify-content: right;
+    justify-content: left;
 }
 
 button.nav-burger {

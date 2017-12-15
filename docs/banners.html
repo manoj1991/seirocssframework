@@ -23,9 +23,12 @@
 <div id="body">
 
     <div class="navbar">
-        <button class="nav-burger" data-target="sidenav" onclick="openNav()">
+        <button id="open" class="nav-burger" data-target="sidenav" onclick="openNav()">
             <i class="fa fa-bars fa-lg"></i>
         </button>    
+        <button id="close" class="nav-burger s-hidden" onclick="closeNav()">
+            <i class="fa fa-times fa-lg"></i>
+        </button>
     </div>
 
     <div class="s-banner-medium s-gradient">
