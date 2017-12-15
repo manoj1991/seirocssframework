@@ -1,0 +1,103 @@
+html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.text-is-centered {
+  text-align: center !important;
+}
+
+.text-is-right {
+  text-align: right !important;
+}
+
+.text-is-left {
+  text-align: left !important;
+}
+
+.text-is-white {
+  color: #ffffff !important;
+}
+
+.text-is-grey {
+  color: #c3c3c3 !important;
+}
+
+.size-is-1 {
+  font-size: 3.5rem !important;
+}
+
+.size-is-2 {
+  font-size: 3rem !important;
+}
+
+.size-is-3 {
+  font-size: 2.5rem !important;
+}
+
+.size-is-4 {
+  font-size: 2rem !important;
+}
+
+.size-is-5 {
+  font-size: 1.5rem !important;
+}
+
+.size-is-6 {
+  font-size: 1rem !important;
+}
+
+.size-is-7 {
+  font-size: 0.75rem !important;
+}
+
+.s-subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.s-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.s-bold-title {
+  font-size: 2rem;
+  font-weight: 900;
+}

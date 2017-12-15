@@ -117,3 +117,15 @@ li a:hover:not(.active) {
 .s-hidden {
     display: none !important;
 }
+
+.gist .gist-meta {
+    display: none;
+}
+
+.gist-file {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
