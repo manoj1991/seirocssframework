@@ -1,0 +1,175 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.s-btn-sm {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 60px !important;
+  min-height: 30px !important;
+  border-radius: 3px !important;
+  padding: 5px !important;
+}
+
+.s-btn-lg {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 100px !important;
+  min-height: 60px !important;
+  border-radius: 3px !important;
+  padding: 5px !important;
+}
+
+.s-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 3px !important;
+  border: none !important;
+  padding: 5px !important;
+  margin: 2px !important;
+  color: #1e1e1e;
+  background-color: #ffffff;
+  -webkit-transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.s-btn.s-default:hover {
+  background-color: #d4d4d4 !important;
+}
+
+.s-btn.s-primary:hover {
+  background-color: #1aa9c9 !important;
+}
+
+.s-btn.s-danger:hover {
+  background-color: #b71d25 !important;
+}
+
+.s-btn.s-warning:hover {
+  background-color: #dab10d !important;
+}
+
+.s-btn.s-success:hover {
+  background-color: #29b765 !important;
+}
+
+.s-btn.s-info:hover {
+  background-color: #2472a4 !important;
+}
+
+.s-btn.s-purple:hover {
+  background-color: #8f4bab !important;
+}
+
+.s-otl, .s-otl-white, .s-otl-primary, .s-otl-danger, .s-otl-warning, .s-otl-success, .s-otl-info, .s-otl-purple, .s-otl-black {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+  min-height: 40px;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 2px;
+  background-color: transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.s-otl, .s-otl-white, .s-otl-primary, .s-otl-danger, .s-otl-warning, .s-otl-success, .s-otl-info, .s-otl-purple, .s-otl-black {
+  color: #e1e1e1;
+  border: 1px solid #e1e1e1;
+}
+
+.s-otl:hover, .s-otl-white:hover, .s-otl-primary:hover, .s-otl-danger:hover, .s-otl-warning:hover, .s-otl-success:hover, .s-otl-info:hover, .s-otl-purple:hover, .s-otl-black:hover {
+  background-color: #e1e1e1;
+  color: #1e1e1e;
+}
+
+.s-otl-white {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.s-otl-white:hover {
+  background-color: #ffffff;
+  color: #21D4FD;
+}
+
+.s-otl-primary {
+  color: #1dbce0;
+  border: 1px solid #1dbce0;
+}
+
+.s-otl-primary:hover {
+  background-color: #1dbce0;
+  color: #ffffff;
+}
+
+.s-otl-danger {
+  color: #cd2029;
+  border: 1px solid #cd2029;
+}
+
+.s-otl-danger:hover {
+  background-color: #cd2029;
+  color: #ffffff;
+}
+
+.s-otl-warning {
+  color: #f1c40f;
+  border: 1px solid #f1c40f;
+}
+
+.s-otl-warning:hover {
+  background-color: #f1c40f;
+  color: #ffffff;
+}
+
+.s-otl-success {
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+}
+
+.s-otl-success:hover {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+
+.s-otl-info {
+  color: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+.s-otl-info:hover {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.s-otl-purple {
+  color: #9b59b6;
+  border: 1px solid #9b59b6;
+}
+
+.s-otl-purple:hover {
+  background-color: #9b59b6;
+  color: #ffffff;
+}
+
+.s-otl-black {
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+}
+
+.s-otl-black:hover {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}

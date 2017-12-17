@@ -19,7 +19,7 @@ $bg-color: rgba(0, 0, 0, 0) !default
     justify-content: left
     align-items: center
 
-.btn-small
+.s-btn-sm
     display: flex !important
     align-items: center !important
     justify-content: center !important
@@ -28,7 +28,7 @@ $bg-color: rgba(0, 0, 0, 0) !default
     border-radius: $button-radius !important
     padding: $button-padding !important
 
-.btn-large
+.s-btn-lg
     display: flex !important
     align-items: center !important
     justify-content: center !important
@@ -37,7 +37,7 @@ $bg-color: rgba(0, 0, 0, 0) !default
     border-radius: $button-radius !important
     padding: $button-padding !important
 
-.button 
+.s-btn 
     display: flex !important
     align-items: center !important
     justify-content: center !important
@@ -52,28 +52,28 @@ $bg-color: rgba(0, 0, 0, 0) !default
     -webkit-transition: 0.3s ease-in-out !important
     transition: 0.3s ease-in-out !important
 
-.button.s-default:hover
+.s-btn.s-default:hover
     background-color: darken($default, 5%) !important
 
-.button.s-primary:hover
+.s-btn.s-primary:hover
     background-color: darken($primary, 5%) !important
 
-.button.s-danger:hover
+.s-btn.s-danger:hover
     background-color: darken($danger, 5%) !important
 
-.button.s-warning:hover
+.s-btn.s-warning:hover
     background-color: darken($warning, 5%) !important
 
-.button.s-success:hover
+.s-btn.s-success:hover
     background-color: darken($success, 5%) !important
 
-.button.s-info:hover
+.s-btn.s-info:hover
     background-color: darken($info, 5%) !important
 
-.button.s-purple:hover
+.s-btn.s-purple:hover
     background-color: darken($purple, 5%) !important
 
-.outlined
+.s-otl
     display: flex
     align-items: center
     justify-content: center
@@ -86,74 +86,83 @@ $bg-color: rgba(0, 0, 0, 0) !default
     -webkit-transition: 0.3s ease-in-out
     transition: 0.3s ease-in-out
 
-.outlined-button
-    @extend .outlined
+.s-otl
+    @extend .s-otl
     color: $default
     border: 1px solid $default
 
-.outlined-button:hover
+.s-otl:hover
     background-color: $default
+    color: $black-flat
+
+.s-otl-white
+    @extend .s-otl
     color: $white
+    border: 1px solid $white
 
-.outlined-button-white
-    @extend .outlined
-    color: $default
-    border: 1px solid $default
-
-.outlined-button-white:hover
+.s-otl-white:hover
     background-color: $white
     color: #21D4FD
 
-.outlined-button-primary
-    @extend .outlined
+.s-otl-primary
+    @extend .s-otl
     color: $primary
     border: 1px solid $primary
     
-.outlined-button-primary:hover
+.s-otl-primary:hover
     background-color: $primary
     color: $white
 
-.outlined-button-danger
-    @extend .outlined
+.s-otl-danger
+    @extend .s-otl
     color: $danger
     border: 1px solid $danger
     
-.outlined-button-danger:hover
+.s-otl-danger:hover
     background-color: $danger
     color: $white
 
-.outlined-button-warning
-    @extend .outlined
+.s-otl-warning
+    @extend .s-otl
     color: $warning
     border: 1px solid $warning
     
-.outlined-button-warning:hover
+.s-otl-warning:hover
     background-color: $warning
     color: $white
 
-.outlined-button-success
-    @extend .outlined
+.s-otl-success
+    @extend .s-otl
     color: $success
     border: 1px solid $success
    
-.outlined-button-success:hover
+.s-otl-success:hover
     background-color: $success
     color: $white
 
-.outlined-button-info
-    @extend .outlined
+.s-otl-info
+    @extend .s-otl
     color: $info
     border: 1px solid $info
     
-.outlined-button-info:hover
+.s-otl-info:hover
     background-color: $info
     color: $white
 
-.outlined-button-purple
-    @extend .outlined
+.s-otl-purple
+    @extend .s-otl
     color: $purple
     border: 1px solid $purple
 
-.outlined-button-purple:hover
+.s-otl-purple:hover
     background-color: $purple
+    color: $white
+
+.s-otl-black
+    @extend .s-otl
+    color: $black-flat
+    border: 1px solid $black-flat
+
+.s-otl-black:hover
+    background-color: $black-flat
     color: $white

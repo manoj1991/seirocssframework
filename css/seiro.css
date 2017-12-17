@@ -3,31 +3,31 @@ html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   padding: 0;
   margin: 0;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   padding: 0;
   margin: 0;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   padding: 0;
   margin: 0;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding: 0;
   margin: 0;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0;
   margin: 0;
 }
@@ -59,23 +59,23 @@ h6 {
 }
 
 .size-is-1 {
-  font-size: 3.5rem !important;
+  font-size: 3.25rem !important;
 }
 
 .size-is-2 {
-  font-size: 3rem !important;
+  font-size: 2.75rem !important;
 }
 
 .size-is-3 {
-  font-size: 2.5rem !important;
+  font-size: 2.25rem !important;
 }
 
 .size-is-4 {
-  font-size: 2rem !important;
+  font-size: 1.75rem !important;
 }
 
 .size-is-5 {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
 }
 
 .size-is-6 {
@@ -83,7 +83,7 @@ h6 {
 }
 
 .size-is-7 {
-  font-size: 0.75rem !important;
+  font-size: 0.85rem !important;
 }
 
 .s-subtitle {
@@ -93,12 +93,12 @@ h6 {
 }
 
 .s-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin: 0;
 }
 
 .s-bold-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 900;
 }
 
@@ -193,31 +193,31 @@ html, body, h1, h2, h3, h4, h5, h6, a, button, li, ul {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   padding: 0;
   margin: 0;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   padding: 0;
   margin: 0;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   padding: 0;
   margin: 0;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding: 0;
   margin: 0;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0;
   margin: 0;
 }
@@ -249,23 +249,23 @@ h6 {
 }
 
 .size-is-1 {
-  font-size: 3.5rem !important;
+  font-size: 3.25rem !important;
 }
 
 .size-is-2 {
-  font-size: 3rem !important;
+  font-size: 2.75rem !important;
 }
 
 .size-is-3 {
-  font-size: 2.5rem !important;
+  font-size: 2.25rem !important;
 }
 
 .size-is-4 {
-  font-size: 2rem !important;
+  font-size: 1.75rem !important;
 }
 
 .size-is-5 {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
 }
 
 .size-is-6 {
@@ -273,7 +273,7 @@ h6 {
 }
 
 .size-is-7 {
-  font-size: 0.75rem !important;
+  font-size: 0.85rem !important;
 }
 
 .s-subtitle {
@@ -283,12 +283,12 @@ h6 {
 }
 
 .s-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin: 0;
 }
 
 .s-bold-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 900;
 }
 
@@ -315,7 +315,7 @@ h6 {
 
 .s-banner-medium {
   background-color: #ffffff;
-  min-height: 30vh;
+  min-height: 35vh;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -323,7 +323,7 @@ h6 {
 
 .s-banner-large {
   background-color: #ffffff;
-  min-height: 60vh;
+  min-height: 75vh;
   padding: 30px;
   display: flex;
   align-items: center;
@@ -347,7 +347,7 @@ h6 {
   align-items: center;
 }
 
-.btn-small {
+.s-btn-sm {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -357,7 +357,7 @@ h6 {
   padding: 5px !important;
 }
 
-.btn-large {
+.s-btn-lg {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -367,7 +367,7 @@ h6 {
   padding: 5px !important;
 }
 
-.button {
+.s-btn {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -383,35 +383,35 @@ h6 {
   transition: 0.3s ease-in-out !important;
 }
 
-.button.s-default:hover {
+.s-btn.s-default:hover {
   background-color: #d4d4d4 !important;
 }
 
-.button.s-primary:hover {
+.s-btn.s-primary:hover {
   background-color: #1aa9c9 !important;
 }
 
-.button.s-danger:hover {
+.s-btn.s-danger:hover {
   background-color: #b71d25 !important;
 }
 
-.button.s-warning:hover {
+.s-btn.s-warning:hover {
   background-color: #dab10d !important;
 }
 
-.button.s-success:hover {
+.s-btn.s-success:hover {
   background-color: #29b765 !important;
 }
 
-.button.s-info:hover {
+.s-btn.s-info:hover {
   background-color: #2472a4 !important;
 }
 
-.button.s-purple:hover {
+.s-btn.s-purple:hover {
   background-color: #8f4bab !important;
 }
 
-.outlined, .outlined-button, .outlined-button-white, .outlined-button-primary, .outlined-button-danger, .outlined-button-warning, .outlined-button-success, .outlined-button-info, .outlined-button-purple {
+.s-otl, .s-otl-white, .s-otl-primary, .s-otl-danger, .s-otl-warning, .s-otl-success, .s-otl-info, .s-otl-purple, .s-otl-black {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,83 +425,93 @@ h6 {
   transition: 0.3s ease-in-out;
 }
 
-.outlined-button {
+.s-otl, .s-otl-white, .s-otl-primary, .s-otl-danger, .s-otl-warning, .s-otl-success, .s-otl-info, .s-otl-purple, .s-otl-black {
   color: #e1e1e1;
   border: 1px solid #e1e1e1;
 }
 
-.outlined-button:hover {
+.s-otl:hover, .s-otl-white:hover, .s-otl-primary:hover, .s-otl-danger:hover, .s-otl-warning:hover, .s-otl-success:hover, .s-otl-info:hover, .s-otl-purple:hover, .s-otl-black:hover {
   background-color: #e1e1e1;
+  color: #1e1e1e;
+}
+
+.s-otl-white {
   color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
-.outlined-button-white {
-  color: #e1e1e1;
-  border: 1px solid #e1e1e1;
-}
-
-.outlined-button-white:hover {
+.s-otl-white:hover {
   background-color: #ffffff;
   color: #21D4FD;
 }
 
-.outlined-button-primary {
+.s-otl-primary {
   color: #1dbce0;
   border: 1px solid #1dbce0;
 }
 
-.outlined-button-primary:hover {
+.s-otl-primary:hover {
   background-color: #1dbce0;
   color: #ffffff;
 }
 
-.outlined-button-danger {
+.s-otl-danger {
   color: #cd2029;
   border: 1px solid #cd2029;
 }
 
-.outlined-button-danger:hover {
+.s-otl-danger:hover {
   background-color: #cd2029;
   color: #ffffff;
 }
 
-.outlined-button-warning {
+.s-otl-warning {
   color: #f1c40f;
   border: 1px solid #f1c40f;
 }
 
-.outlined-button-warning:hover {
+.s-otl-warning:hover {
   background-color: #f1c40f;
   color: #ffffff;
 }
 
-.outlined-button-success {
+.s-otl-success {
   color: #2ecc71;
   border: 1px solid #2ecc71;
 }
 
-.outlined-button-success:hover {
+.s-otl-success:hover {
   background-color: #2ecc71;
   color: #ffffff;
 }
 
-.outlined-button-info {
+.s-otl-info {
   color: #2980b9;
   border: 1px solid #2980b9;
 }
 
-.outlined-button-info:hover {
+.s-otl-info:hover {
   background-color: #2980b9;
   color: #ffffff;
 }
 
-.outlined-button-purple {
+.s-otl-purple {
   color: #9b59b6;
   border: 1px solid #9b59b6;
 }
 
-.outlined-button-purple:hover {
+.s-otl-purple:hover {
   background-color: #9b59b6;
+  color: #ffffff;
+}
+
+.s-otl-black {
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+}
+
+.s-otl-black:hover {
+  background-color: #1e1e1e;
   color: #ffffff;
 }
 
@@ -514,7 +524,7 @@ h6 {
   padding: 1px;
 }
 
-.gallery {
+.s-gallery {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
@@ -522,7 +532,7 @@ h6 {
   padding: 10px;
 }
 
-.photo {
+.s-gallery-photo {
   border-radius: 3px;
   width: 300px !important;
   height: 250px !important;
@@ -559,7 +569,7 @@ h6 {
   padding: 20px;
 }
 
-img {
+img.s-image {
   max-width: 100%;
   width: 48vh;
   height: 30vh;
@@ -577,6 +587,7 @@ img {
   margin: 0;
   font-family: 'Noto Sans';
   font-size: 12px;
+  line-height: 15px;
 }
 
 .s-profile-card {
@@ -584,7 +595,7 @@ img {
   min-height: 45vh;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 15px;
   padding: 0;
   box-shadow: 2px 2px 20px #bdc3c7;
@@ -607,7 +618,7 @@ img {
   width: 48vh;
   min-height: 22vh;
   background-size: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .s-profile-picture {
@@ -654,6 +665,7 @@ img {
   padding: 0;
   font-size: 0.75rem;
   margin: 0.5em;
+  line-height: 15px;
 }
 
 .s-profile-links {

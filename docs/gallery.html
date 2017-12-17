@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="../css/seiro.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Catamaran|Noto+Sans|Roboto" rel="stylesheet">
     <link rel="shortcut icon" href="https://farm5.staticflickr.com/4558/38360678471_57862c56f8_o.png" type="image/x-icon">
 </head>
 
 <body>
 <ul class="sidenav" id="sidenav">
+    <li><a href="https://seirocss.com" class="s-title text-is-centered">SeiroCss</a></li>
     <li><a href="buttons.html">Buttons</a></li>
     <li><a href="banners.html">Banners</a></li>
     <li><a href="cards.html">Cards</a></li>
@@ -41,21 +41,21 @@
     <div class="s-banner">
         <div class="s-banner-container">
             <p>
-                Seiro Css is in very early stages of development but here are some 
-                examples of what I have so far.
+                To create a simple gallery, all you need to do is wrap your images in a div
+                with the class <code>s-gallery</code>, then give each of your images the <code>s-gallery-photo</code> class.
             </p>            
         </div>
     </div>
 
-    <div class="gallery">
-        <img class="photo" data-aos="zoom-in-right" src="https://images.unsplash.com/photo-1504814532849-cff240bbc503?auto=format&fit=crop&w=1268&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-left" src="https://images.unsplash.com/photo-1463468217891-c11f48e6310a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-right" src="https://images.unsplash.com/photo-1464646163800-8331cc18a357?auto=format&fit=crop&w=1346&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">     
-        <img class="photo" data-aos="zoom-in-left" src="https://images.unsplash.com/photo-1480099835147-7b8f6c6f8b98?auto=format&fit=crop&w=1288&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-right" src="https://images.unsplash.com/photo-1482531007909-192ac913980a?auto=format&fit=crop&w=1351&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-left" src="https://images.unsplash.com/photo-1454123253751-1fe2b9e0c10d?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-right" src="https://images.unsplash.com/photo-1500514966906-fe245eea9344?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
-        <img class="photo" data-aos="zoom-in-left" src="https://images.unsplash.com/photo-1483560732664-64c6d784340b?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+    <div class="s-gallery">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1504814532849-cff240bbc503?auto=format&fit=crop&w=1268&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1463468217891-c11f48e6310a?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1464646163800-8331cc18a357?auto=format&fit=crop&w=1346&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">     
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1480099835147-7b8f6c6f8b98?auto=format&fit=crop&w=1288&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1482531007909-192ac913980a?auto=format&fit=crop&w=1351&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1454123253751-1fe2b9e0c10d?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1500514966906-fe245eea9344?auto=format&fit=crop&w=1267&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
+        <img class="s-gallery-photo" src="https://images.unsplash.com/photo-1483560732664-64c6d784340b?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="">
     </div>
 
     <div class="s-banner">
@@ -79,7 +79,7 @@
                         <div style="position: absolute; left: -5000px;" aria-hidden="true">
                             <input type="text" name="b_b2ab6e5e22fd958eaca983667_d0980b0bde" tabindex="-1" value="">
                         </div>
-                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="outlined-button-white">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="s-otl-white">
                     </div>
                 </form>
             </div>
@@ -89,7 +89,7 @@
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="VTFMLVHSETMBN">
-                    <button class="outlined-button-white btn-small" name="submit" alt="Donate">
+                    <button class="s-otl-white s-btn-sm" name="submit" alt="Donate">
                         <i class="fa fa-paypal" aria-hidden="true" style="margin-right: 5px"></i>
                         Donate
                     </button>
@@ -100,10 +100,6 @@
     </div>
 </div>
 <script src="../js/index.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-<script>
-AOS.init();
-</script>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
