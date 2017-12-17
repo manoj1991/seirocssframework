@@ -113,17 +113,15 @@ li a:hover:not(.active) {
     padding: 5px;
 }
 
-.fa-instagram {
+#instagram-icon {
     color: #E44D55;
 }
 
-
-.fa-linkedin {
+#linkedin-icon {
     color: #0076B4;
 }
 
-
-.fa-twitter {
+#twitter-icon {
     color: #1DA1F4;
 }
 
