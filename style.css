@@ -49,6 +49,7 @@ ul {
     height: 100%;
     overflow: scroll;
     transition: 0.5s;
+    z-index: 1;
 }
 
 #body {
@@ -137,6 +138,9 @@ li a:hover:not(.active) {
     .blob-num.js-line-number {
         font-size: 12px;
     }
+}
+.gist {
+    z-index: 0;
 }
 
 .gist .gist-meta {
